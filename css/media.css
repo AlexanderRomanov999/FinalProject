@@ -1,0 +1,225 @@
+@media (max-width: 430px) {
+    .header{
+        height: 840px;
+    }
+    .header__top {
+      padding-top: 0px;
+      height: 70px;
+    }
+    .header__logo{
+        margin: 0 auto 0 0;
+    }
+    .menu {
+      display: none;
+    }
+    .sign__up-btn{
+      display: none;
+    }
+    .header__title{
+        font-size: 31px;
+    }
+    .header__row{
+        flex-direction: column-reverse;
+        padding: 15px; 
+    }
+    .header__img{
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+    .header__img::before{
+        display: none;
+    }
+    .header__text{
+        margin: 0 0 20px 0; 
+    }
+    .btn{
+        width: 100%;
+        text-align: center;
+    }
+    .main{
+        padding: 0 ;
+    }
+    .title{
+        text-align: left;
+        font-size: 30px;
+    }
+    .features__title{
+        margin: 0 0 15px 0; 
+    }
+    .text{
+        text-align: left;
+        font-size: 14px;
+    }
+
+    .features{
+        padding: 0 0 40px 0;
+    }
+    .features__row{
+        flex-wrap: wrap;
+    }
+    .features__text{
+        margin: 0 0 30px 0; 
+    }
+    .features__column{
+        width: 100%;
+        margin: 0 0 30px 0; 
+        text-align: left;
+        display: flex;
+    }
+    .features__column-title{
+        margin: 0 0 10px 0; 
+        font-size: 16px;
+    }
+    .features__column-desc{
+        font-size: 14px;
+    }
+    .features__column-img{
+        margin: 0 20px 0 0;
+    }
+
+    .automated {
+        padding-bottom: 40px;
+    }
+      
+    .automated__row {
+        flex-direction: column !important;
+    }
+
+    .automated__row + .automated__row {
+        margin-top: 80px;
+    }
+
+    .automated__column{
+        width: 100%;
+    }
+
+    .automated__column-title{
+        margin: 0 0 10px 0; 
+        font-size: 16px;
+    }
+    .automated__column-img{
+        margin: 10px 0 0 0;
+    }
+
+
+    .price{
+        height: 1000px;
+    }
+    .price__top{
+        padding: 240px 0 30px 0;
+    }
+    .price__card{
+        width: 100%;
+        overflow-x: scroll;
+        padding: 0 0 50px 0;
+    }
+    .card{
+        margin: 0 7px;
+        width: 280px;
+    }
+    .price__top > p{
+        width: 100%;
+    }
+    .card__content {
+        padding: 30px 40px 50px 40px;
+    }
+
+    .companies{
+        padding: 80px 0 60px 0; 
+    }
+
+    .companies__column--mini-size{
+        display: none;
+    }
+
+    .companies__column-inner{
+        position: relative;
+        left: auto;
+        top: auto;
+        padding: 30px 15px;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .companies__column{
+        width: 100%;
+        height: auto;
+    }
+
+    .form__auth-btn{
+        width: 100%;
+    }
+
+    .rating-area{
+        margin: 0 auto 16px auto;
+        justify-content: center;
+        padding: 0 0 0 12px;
+    }
+
+
+
+    .footer{
+        height: 100px;
+    }
+
+    .footer__row{
+        padding: 0;
+        height: 100px;
+    }
+
+    .footer__menu{
+        display: none;
+    }
+
+    .footer__social-item + .footer__social-item {
+        margin-left: 0px;
+    }
+
+
+
+
+
+
+    .burger{
+        display: block;
+        width: 24px;
+        height: 24px;
+        background: url("../img/header/burger.png") no-repeat;
+        background-size: cover;
+        margin: 0 0 0 10px;
+        cursor: pointer;
+    }
+
+    .burger__list{
+        display: block;
+        width: 100%;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #1E2E5Cfa;
+        height: auto;
+        min-height: calc(100% - 70px);
+        z-index: 999;
+        box-shadow: 0 10px 15px 1px rgba(0,0,0,0.3);
+        transition: transform 0.2s ease-in;
+        transform: translateX(100%);
+    }
+    .burger__list--open{
+        transform: translateX(0%);
+    }
+
+    .burger__menu {
+        padding: 20px 15px 50px 15px;
+    }
+      
+    .burger__items{
+        padding: 15px 0; 
+    }
+    .burger__link {
+        color: #8794ba;
+        text-align: center;
+        width: 100%;
+        display: block;
+    }
+
+  }
